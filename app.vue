@@ -2,7 +2,7 @@
   <div>
     <!-- <NuxtRouteAnnouncer />
     <NuxtWelcome /> -->
-     <NuxtLayout :name="defaultLayout" v-if="store.showApp && store.nodeResult">
+     <NuxtLayout>
           <NuxtPage />      
       </NuxtLayout>
   </div>
