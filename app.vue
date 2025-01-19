@@ -1,6 +1,9 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <!-- <NuxtRouteAnnouncer />
+    <NuxtWelcome /> -->
+     <NuxtLayout :name="defaultLayout" v-if="store.showApp && store.nodeResult">
+          <NuxtPage />      
+      </NuxtLayout>
   </div>
 </template>
